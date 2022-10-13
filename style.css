@@ -1,0 +1,30 @@
+body {
+  background-color: rgb(8, 31, 31);
+}
+
+.title {
+  color: rgb(201, 181, 181);
+}
+.home {
+  display: flex;
+  justify-content: space-around;
+}
+.out {
+  color: azure;
+  display: flex;
+  justify-content: center;
+}
+
+
+.out button {
+  cursor: pointer;
+  border-radius: 40%;
+  font-size: 30px;
+  background-color: rgb(34, 34, 48);
+  color: aliceblue;
+  font-weight: bold;
+  margin: 20px;
+}
+.out button:hover {
+  background-color: brown;
+}
